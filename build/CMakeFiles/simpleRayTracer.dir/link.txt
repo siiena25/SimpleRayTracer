@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3 -fopenmp -rdynamic CMakeFiles/simpleRayTracer.dir/simpleReyTracer.cpp.o -o simpleRayTracer 

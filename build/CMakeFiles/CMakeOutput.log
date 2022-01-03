@@ -1,0 +1,1613 @@
+The system is: Linux - 5.11.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/3.20.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/3.20.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52652/fast && /usr/bin/make  -f CMakeFiles/cmTC_52652.dir/build.make CMakeFiles/cmTC_52652.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKWgkFZ.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o /tmp/ccKWgkFZ.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_52652
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52652.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -o cmTC_52652 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52652' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdcNJQr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52652 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52652' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_52652/fast && /usr/bin/make  -f CMakeFiles/cmTC_52652.dir/build.make CMakeFiles/cmTC_52652.dir/build]
+  ignore line: [make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKWgkFZ.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o /tmp/ccKWgkFZ.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_52652]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52652.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -o cmTC_52652 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52652' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdcNJQr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52652 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdcNJQr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_52652] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_52652.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffc73/fast && /usr/bin/make  -f CMakeFiles/cmTC_ffc73.dir/build.make CMakeFiles/cmTC_ffc73.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchI7adY.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchI7adY.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_ffc73
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc73.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ffc73 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc73' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHrpWCr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ffc73 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc73' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffc73/fast && /usr/bin/make  -f CMakeFiles/cmTC_ffc73.dir/build.make CMakeFiles/cmTC_ffc73.dir/build]
+  ignore line: [make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchI7adY.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchI7adY.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_ffc73]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc73.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ffc73 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc73' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHrpWCr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ffc73 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHrpWCr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ffc73] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_ffc73.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4beeb/fast && /usr/bin/make  -f CMakeFiles/cmTC_4beeb.dir/build.make CMakeFiles/cmTC_4beeb.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4beeb.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_4beeb.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4beeb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4beeb.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_4beeb.dir/src.cxx.o -o cmTC_4beeb 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf18c/fast && /usr/bin/make  -f CMakeFiles/cmTC_bf18c.dir/build.make CMakeFiles/cmTC_bf18c.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf18c.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_bf18c.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf18c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf18c.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_bf18c.dir/src.cxx.o -o cmTC_bf18c 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9511/fast && /usr/bin/make  -f CMakeFiles/cmTC_e9511.dir/build.make CMakeFiles/cmTC_e9511.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9511.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_e9511.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e9511
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9511.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_e9511.dir/src.cxx.o -o cmTC_e9511 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_28cce/fast && /usr/bin/make  -f CMakeFiles/cmTC_28cce.dir/build.make CMakeFiles/cmTC_28cce.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28cce.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++11 -o CMakeFiles/cmTC_28cce.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28cce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28cce.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_28cce.dir/src.cxx.o -o cmTC_28cce 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1edfd/fast && /usr/bin/make  -f CMakeFiles/cmTC_1edfd.dir/build.make CMakeFiles/cmTC_1edfd.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1edfd.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11    -O3 -o CMakeFiles/cmTC_1edfd.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1edfd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1edfd.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11  -rdynamic CMakeFiles/cmTC_1edfd.dir/src.cxx.o -o cmTC_1edfd 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_78bbd/fast && /usr/bin/make  -f CMakeFiles/cmTC_78bbd.dir/build.make CMakeFiles/cmTC_78bbd.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78bbd.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3    -fopenmp -o CMakeFiles/cmTC_78bbd.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78bbd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78bbd.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11 -O3  -rdynamic CMakeFiles/cmTC_78bbd.dir/src.cxx.o -o cmTC_78bbd 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d340/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d340.dir/build.make CMakeFiles/cmTC_9d340.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d340.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_9d340.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d340
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d340.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_9d340.dir/src.cxx.o -o cmTC_9d340 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f0362/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0362.dir/build.make CMakeFiles/cmTC_f0362.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0362.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_f0362.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0362
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0362.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_f0362.dir/src.cxx.o -o cmTC_f0362 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_149f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_149f0.dir/build.make CMakeFiles/cmTC_149f0.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_149f0.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_149f0.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_149f0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_149f0.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_149f0.dir/src.cxx.o -o cmTC_149f0 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33d46/fast && /usr/bin/make  -f CMakeFiles/cmTC_33d46.dir/build.make CMakeFiles/cmTC_33d46.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33d46.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++11 -o CMakeFiles/cmTC_33d46.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33d46
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33d46.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_33d46.dir/src.cxx.o -o cmTC_33d46 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a6857/fast && /usr/bin/make  -f CMakeFiles/cmTC_a6857.dir/build.make CMakeFiles/cmTC_a6857.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6857.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11    -O3 -o CMakeFiles/cmTC_a6857.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a6857
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6857.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11  -rdynamic CMakeFiles/cmTC_a6857.dir/src.cxx.o -o cmTC_a6857 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29311/fast && /usr/bin/make  -f CMakeFiles/cmTC_29311.dir/build.make CMakeFiles/cmTC_29311.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_29311.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3    -fopenmp -o CMakeFiles/cmTC_29311.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_29311
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29311.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11 -O3  -rdynamic CMakeFiles/cmTC_29311.dir/src.cxx.o -o cmTC_29311 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8db1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_8db1a.dir/build.make CMakeFiles/cmTC_8db1a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8db1a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_8db1a.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8db1a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db1a.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_8db1a.dir/src.cxx.o -o cmTC_8db1a 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e7d43/fast && /usr/bin/make  -f CMakeFiles/cmTC_e7d43.dir/build.make CMakeFiles/cmTC_e7d43.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7d43.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_e7d43.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e7d43
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7d43.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_e7d43.dir/src.cxx.o -o cmTC_e7d43 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13d35/fast && /usr/bin/make  -f CMakeFiles/cmTC_13d35.dir/build.make CMakeFiles/cmTC_13d35.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13d35.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_13d35.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13d35
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d35.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_13d35.dir/src.cxx.o -o cmTC_13d35 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbf72/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbf72.dir/build.make CMakeFiles/cmTC_fbf72.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbf72.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++11 -o CMakeFiles/cmTC_fbf72.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fbf72
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf72.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_fbf72.dir/src.cxx.o -o cmTC_fbf72 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ab910/fast && /usr/bin/make  -f CMakeFiles/cmTC_ab910.dir/build.make CMakeFiles/cmTC_ab910.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab910.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11    -O3 -o CMakeFiles/cmTC_ab910.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab910
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab910.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11  -rdynamic CMakeFiles/cmTC_ab910.dir/src.cxx.o -o cmTC_ab910 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1829e/fast && /usr/bin/make  -f CMakeFiles/cmTC_1829e.dir/build.make CMakeFiles/cmTC_1829e.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1829e.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++11 -O3    -fopenmp -o CMakeFiles/cmTC_1829e.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1829e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1829e.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11 -O3  -rdynamic CMakeFiles/cmTC_1829e.dir/src.cxx.o -o cmTC_1829e 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ce42/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ce42.dir/build.make CMakeFiles/cmTC_8ce42.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ce42.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_8ce42.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ce42
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ce42.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_8ce42.dir/src.cxx.o -o cmTC_8ce42 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_16da8/fast && /usr/bin/make  -f CMakeFiles/cmTC_16da8.dir/build.make CMakeFiles/cmTC_16da8.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16da8.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_16da8.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16da8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16da8.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_16da8.dir/src.cxx.o -o cmTC_16da8 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_66972/fast && /usr/bin/make  -f CMakeFiles/cmTC_66972.dir/build.make CMakeFiles/cmTC_66972.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66972.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_66972.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_66972
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66972.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_66972.dir/src.cxx.o -o cmTC_66972 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_699de/fast && /usr/bin/make  -f CMakeFiles/cmTC_699de.dir/build.make CMakeFiles/cmTC_699de.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_699de.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_699de.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_699de
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_699de.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_699de.dir/src.cxx.o -o cmTC_699de 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_af019/fast && /usr/bin/make  -f CMakeFiles/cmTC_af019.dir/build.make CMakeFiles/cmTC_af019.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af019.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_af019.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af019
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af019.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_af019.dir/src.cxx.o -o cmTC_af019 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9da59/fast && /usr/bin/make  -f CMakeFiles/cmTC_9da59.dir/build.make CMakeFiles/cmTC_9da59.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9da59.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_9da59.dir/src.cxx.o -c /home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9da59
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9da59.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_9da59.dir/src.cxx.o -o cmTC_9da59 
+make[1]: Leaving directory '/home/julia/CLionProjects/tinyraytracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9aba/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9aba.dir/build.make CMakeFiles/cmTC_d9aba.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9aba.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_d9aba.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d9aba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9aba.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_d9aba.dir/src.cxx.o -o cmTC_d9aba 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a153/fast && /usr/bin/make  -f CMakeFiles/cmTC_6a153.dir/build.make CMakeFiles/cmTC_6a153.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a153.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_6a153.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6a153
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a153.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_6a153.dir/src.cxx.o -o cmTC_6a153 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5beb5/fast && /usr/bin/make  -f CMakeFiles/cmTC_5beb5.dir/build.make CMakeFiles/cmTC_5beb5.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5beb5.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_5beb5.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5beb5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5beb5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_5beb5.dir/src.cxx.o -o cmTC_5beb5 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8497/fast && /usr/bin/make  -f CMakeFiles/cmTC_c8497.dir/build.make CMakeFiles/cmTC_c8497.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8497.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_c8497.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8497
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8497.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_c8497.dir/src.cxx.o -o cmTC_c8497 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_08fce/fast && /usr/bin/make  -f CMakeFiles/cmTC_08fce.dir/build.make CMakeFiles/cmTC_08fce.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08fce.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_08fce.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_08fce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fce.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_08fce.dir/src.cxx.o -o cmTC_08fce 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a28ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_a28ef.dir/build.make CMakeFiles/cmTC_a28ef.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a28ef.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_a28ef.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a28ef
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a28ef.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_a28ef.dir/src.cxx.o -o cmTC_a28ef 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cb186/fast && /usr/bin/make  -f CMakeFiles/cmTC_cb186.dir/build.make CMakeFiles/cmTC_cb186.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb186.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_cb186.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb186
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb186.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_cb186.dir/src.cxx.o -o cmTC_cb186 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f0b99/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0b99.dir/build.make CMakeFiles/cmTC_f0b99.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0b99.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_f0b99.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0b99
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0b99.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_f0b99.dir/src.cxx.o -o cmTC_f0b99 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e022d/fast && /usr/bin/make  -f CMakeFiles/cmTC_e022d.dir/build.make CMakeFiles/cmTC_e022d.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e022d.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_e022d.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e022d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e022d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_e022d.dir/src.cxx.o -o cmTC_e022d 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50f9b/fast && /usr/bin/make  -f CMakeFiles/cmTC_50f9b.dir/build.make CMakeFiles/cmTC_50f9b.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50f9b.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_50f9b.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50f9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f9b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_50f9b.dir/src.cxx.o -o cmTC_50f9b 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c77a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c77a.dir/build.make CMakeFiles/cmTC_3c77a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c77a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_3c77a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c77a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c77a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_3c77a.dir/src.cxx.o -o cmTC_3c77a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1006d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1006d.dir/build.make CMakeFiles/cmTC_1006d.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1006d.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_1006d.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1006d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1006d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_1006d.dir/src.cxx.o -o cmTC_1006d 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0578b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0578b.dir/build.make CMakeFiles/cmTC_0578b.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0578b.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_0578b.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0578b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0578b.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_0578b.dir/src.cxx.o -o cmTC_0578b 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1053f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1053f.dir/build.make CMakeFiles/cmTC_1053f.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1053f.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_1053f.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1053f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1053f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_1053f.dir/src.cxx.o -o cmTC_1053f 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_925cf/fast && /usr/bin/make  -f CMakeFiles/cmTC_925cf.dir/build.make CMakeFiles/cmTC_925cf.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_925cf.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_925cf.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_925cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_925cf.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_925cf.dir/src.cxx.o -o cmTC_925cf 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ac3a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ac3a.dir/build.make CMakeFiles/cmTC_3ac3a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ac3a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_3ac3a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ac3a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ac3a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_3ac3a.dir/src.cxx.o -o cmTC_3ac3a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d967e/fast && /usr/bin/make  -f CMakeFiles/cmTC_d967e.dir/build.make CMakeFiles/cmTC_d967e.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d967e.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_d967e.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d967e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d967e.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_d967e.dir/src.cxx.o -o cmTC_d967e 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_99149/fast && /usr/bin/make  -f CMakeFiles/cmTC_99149.dir/build.make CMakeFiles/cmTC_99149.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99149.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_99149.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_99149
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99149.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_99149.dir/src.cxx.o -o cmTC_99149 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_55e12/fast && /usr/bin/make  -f CMakeFiles/cmTC_55e12.dir/build.make CMakeFiles/cmTC_55e12.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55e12.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_55e12.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_55e12
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e12.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_55e12.dir/src.cxx.o -o cmTC_55e12 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1a89/fast && /usr/bin/make  -f CMakeFiles/cmTC_a1a89.dir/build.make CMakeFiles/cmTC_a1a89.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1a89.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_a1a89.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a1a89
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a89.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_a1a89.dir/src.cxx.o -o cmTC_a1a89 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4fe94/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fe94.dir/build.make CMakeFiles/cmTC_4fe94.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fe94.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_4fe94.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4fe94
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fe94.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_4fe94.dir/src.cxx.o -o cmTC_4fe94 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6a7d/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6a7d.dir/build.make CMakeFiles/cmTC_b6a7d.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6a7d.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_b6a7d.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6a7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a7d.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_b6a7d.dir/src.cxx.o -o cmTC_b6a7d 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89b66/fast && /usr/bin/make  -f CMakeFiles/cmTC_89b66.dir/build.make CMakeFiles/cmTC_89b66.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89b66.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_89b66.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_89b66
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89b66.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_89b66.dir/src.cxx.o -o cmTC_89b66 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eea39/fast && /usr/bin/make  -f CMakeFiles/cmTC_eea39.dir/build.make CMakeFiles/cmTC_eea39.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eea39.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_eea39.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eea39
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eea39.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_eea39.dir/src.cxx.o -o cmTC_eea39 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c49e9/fast && /usr/bin/make  -f CMakeFiles/cmTC_c49e9.dir/build.make CMakeFiles/cmTC_c49e9.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c49e9.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_c49e9.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c49e9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c49e9.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_c49e9.dir/src.cxx.o -o cmTC_c49e9 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7516a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7516a.dir/build.make CMakeFiles/cmTC_7516a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7516a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_7516a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7516a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7516a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_7516a.dir/src.cxx.o -o cmTC_7516a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad643/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad643.dir/build.make CMakeFiles/cmTC_ad643.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad643.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_ad643.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad643
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad643.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_ad643.dir/src.cxx.o -o cmTC_ad643 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de7a6/fast && /usr/bin/make  -f CMakeFiles/cmTC_de7a6.dir/build.make CMakeFiles/cmTC_de7a6.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de7a6.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_de7a6.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de7a6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de7a6.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_de7a6.dir/src.cxx.o -o cmTC_de7a6 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_567b7/fast && /usr/bin/make  -f CMakeFiles/cmTC_567b7.dir/build.make CMakeFiles/cmTC_567b7.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_567b7.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_567b7.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_567b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_567b7.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_567b7.dir/src.cxx.o -o cmTC_567b7 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f1f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_7f1f9.dir/build.make CMakeFiles/cmTC_7f1f9.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f1f9.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_7f1f9.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7f1f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f1f9.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_7f1f9.dir/src.cxx.o -o cmTC_7f1f9 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42161/fast && /usr/bin/make  -f CMakeFiles/cmTC_42161.dir/build.make CMakeFiles/cmTC_42161.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42161.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_42161.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_42161
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42161.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_42161.dir/src.cxx.o -o cmTC_42161 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d39b/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d39b.dir/build.make CMakeFiles/cmTC_7d39b.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d39b.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_7d39b.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d39b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d39b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_7d39b.dir/src.cxx.o -o cmTC_7d39b 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6465/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6465.dir/build.make CMakeFiles/cmTC_b6465.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6465.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_b6465.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6465
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6465.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_b6465.dir/src.cxx.o -o cmTC_b6465 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1edd0/fast && /usr/bin/make  -f CMakeFiles/cmTC_1edd0.dir/build.make CMakeFiles/cmTC_1edd0.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1edd0.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_1edd0.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1edd0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1edd0.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_1edd0.dir/src.cxx.o -o cmTC_1edd0 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1535/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1535.dir/build.make CMakeFiles/cmTC_b1535.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1535.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_b1535.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1535
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1535.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_b1535.dir/src.cxx.o -o cmTC_b1535 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fecf8/fast && /usr/bin/make  -f CMakeFiles/cmTC_fecf8.dir/build.make CMakeFiles/cmTC_fecf8.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fecf8.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_fecf8.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fecf8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fecf8.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_fecf8.dir/src.cxx.o -o cmTC_fecf8 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_81480/fast && /usr/bin/make  -f CMakeFiles/cmTC_81480.dir/build.make CMakeFiles/cmTC_81480.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81480.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_81480.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81480
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81480.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_81480.dir/src.cxx.o -o cmTC_81480 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_446cd/fast && /usr/bin/make  -f CMakeFiles/cmTC_446cd.dir/build.make CMakeFiles/cmTC_446cd.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_446cd.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_446cd.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_446cd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_446cd.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_446cd.dir/src.cxx.o -o cmTC_446cd 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8d6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c8d6a.dir/build.make CMakeFiles/cmTC_c8d6a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8d6a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_c8d6a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8d6a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d6a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_c8d6a.dir/src.cxx.o -o cmTC_c8d6a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df3ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_df3ac.dir/build.make CMakeFiles/cmTC_df3ac.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df3ac.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_df3ac.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df3ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df3ac.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_df3ac.dir/src.cxx.o -o cmTC_df3ac 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1b83a/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b83a.dir/build.make CMakeFiles/cmTC_1b83a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b83a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_1b83a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b83a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b83a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_1b83a.dir/src.cxx.o -o cmTC_1b83a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d60b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d60b5.dir/build.make CMakeFiles/cmTC_d60b5.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d60b5.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_d60b5.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d60b5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d60b5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_d60b5.dir/src.cxx.o -o cmTC_d60b5 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cff9/fast && /usr/bin/make  -f CMakeFiles/cmTC_2cff9.dir/build.make CMakeFiles/cmTC_2cff9.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cff9.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_2cff9.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2cff9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cff9.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_2cff9.dir/src.cxx.o -o cmTC_2cff9 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12c7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_12c7b.dir/build.make CMakeFiles/cmTC_12c7b.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12c7b.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_12c7b.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_12c7b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c7b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_12c7b.dir/src.cxx.o -o cmTC_12c7b 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75f5b/fast && /usr/bin/make  -f CMakeFiles/cmTC_75f5b.dir/build.make CMakeFiles/cmTC_75f5b.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75f5b.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_75f5b.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_75f5b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f5b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_75f5b.dir/src.cxx.o -o cmTC_75f5b 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_042b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_042b4.dir/build.make CMakeFiles/cmTC_042b4.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_042b4.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_042b4.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_042b4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_042b4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_042b4.dir/src.cxx.o -o cmTC_042b4 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ae57/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ae57.dir/build.make CMakeFiles/cmTC_8ae57.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ae57.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_8ae57.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ae57
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae57.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_8ae57.dir/src.cxx.o -o cmTC_8ae57 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef562/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef562.dir/build.make CMakeFiles/cmTC_ef562.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef562.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_ef562.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ef562
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef562.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_ef562.dir/src.cxx.o -o cmTC_ef562 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8091/fast && /usr/bin/make  -f CMakeFiles/cmTC_f8091.dir/build.make CMakeFiles/cmTC_f8091.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8091.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -o CMakeFiles/cmTC_f8091.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8091
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8091.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_f8091.dir/src.cxx.o -o cmTC_f8091 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a096a/fast && /usr/bin/make  -f CMakeFiles/cmTC_a096a.dir/build.make CMakeFiles/cmTC_a096a.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a096a.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall    -Wextra -o CMakeFiles/cmTC_a096a.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a096a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a096a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/cmTC_a096a.dir/src.cxx.o -o cmTC_a096a 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f31fa/fast && /usr/bin/make  -f CMakeFiles/cmTC_f31fa.dir/build.make CMakeFiles/cmTC_f31fa.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f31fa.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra    -pedantic -o CMakeFiles/cmTC_f31fa.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f31fa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31fa.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  -rdynamic CMakeFiles/cmTC_f31fa.dir/src.cxx.o -o cmTC_f31fa 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_96150/fast && /usr/bin/make  -f CMakeFiles/cmTC_96150.dir/build.make CMakeFiles/cmTC_96150.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96150.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic    -std=c++14 -o CMakeFiles/cmTC_96150.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96150
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96150.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic  -rdynamic CMakeFiles/cmTC_96150.dir/src.cxx.o -o cmTC_96150 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63e47/fast && /usr/bin/make  -f CMakeFiles/cmTC_63e47.dir/build.make CMakeFiles/cmTC_63e47.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63e47.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14    -O3 -o CMakeFiles/cmTC_63e47.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_63e47
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63e47.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14  -rdynamic CMakeFiles/cmTC_63e47.dir/src.cxx.o -o cmTC_63e47 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12ee5/fast && /usr/bin/make  -f CMakeFiles/cmTC_12ee5.dir/build.make CMakeFiles/cmTC_12ee5.dir/build
+make[1]: Entering directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12ee5.dir/src.cxx.o
+/usr/bin/c++ -Dflag_supported  -Wall -Wextra -pedantic -std=c++14 -O3    -fopenmp -o CMakeFiles/cmTC_12ee5.dir/src.cxx.o -c /home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_12ee5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12ee5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++14 -O3  -rdynamic CMakeFiles/cmTC_12ee5.dir/src.cxx.o -o cmTC_12ee5 
+make[1]: Leaving directory '/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

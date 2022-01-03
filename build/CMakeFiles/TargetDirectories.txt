@@ -1,0 +1,3 @@
+/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/rebuild_cache.dir
+/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/edit_cache.dir
+/home/julia/CLionProjects/simpleRayTracer/build/CMakeFiles/simpleRayTracer.dir
